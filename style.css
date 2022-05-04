@@ -1,0 +1,90 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100%;
+}
+
+.div {
+   height: 2000px;
+   margin: 0 20px;
+   /* position: relative; */
+}
+
+.btn-store {
+   display: flex;
+   max-width: 1200px;
+   margin: 20px auto;
+   justify-content: space-between;
+}
+.btn-div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   min-width: 150px;
+   height: 180px;
+   background-color: #c5f;
+}
+
+.btn-div-block {
+   height: 80px;
+}
+.btn {
+   padding: 10px;
+   background-color: rgb(64, 160, 212);
+   outline: none;
+   border-radius: 10px;
+}
+
+.scroll-into-view {
+   margin: 20px 0px;
+   padding: 20px;
+   background-color: rgb(179, 69, 69);
+   color: #fff;
+}
+
+.lesson__item {
+   max-width: 340px;
+}
+
+.SIW {
+   font-weight: bold;
+   color: #000;
+   display: block;
+   margin: 0px 0px 10px 0px;
+}
+
+.scroll-lock {
+   overflow: hidden;
+}
+
+.metric {
+   font-weight: bold;
+   margin: 20px 0px 0px 0px;
+   text-align: center;
+}
+
+.lesson__block {
+   margin: 20px auto;
+   width: 500px;
+   height: 300px;
+   padding: 15px;
+   border: 20px solid #7a956b;
+   background-color: #794f45;
+   overflow: auto;
+   font-size: 20px;
+   line-height: 150%;
+}
+
+.lesson__selected {
+   padding: 15px;
+   color: #fff;
+}
+
+.lesson__block p:not(:last-child) {
+   margin: 0px 0px 20px 0px;
+}
